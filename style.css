@@ -1,0 +1,71 @@
+html,
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+header,
+footer
+{
+    background-color: cadetblue;
+    padding: 10px;
+    color: white;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.content
+{
+    max-width: 1024px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+div {
+    padding: 0 20px;
+}
+
+p,
+li
+{
+    font-size: 25px;
+    font-weight: lighter;
+    color: gray;
+}
+
+h1,
+h2
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: cadetblue;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: cadetblue;
+}
+
+a:hover {
+    color: darkslategrey;
+}
+
